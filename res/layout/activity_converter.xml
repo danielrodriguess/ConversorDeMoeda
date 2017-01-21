@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.eprovafinaldanielebruno.Converter" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite um valor:" />
+
+    <EditText
+        android:id="@+id/valordousuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+<RadioGroup
+     android:id="@+id/grupo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    >
+    <RadioButton
+        android:id="@+id/realbotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real" />
+
+    <RadioButton
+        android:id="@+id/dolarbotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dólar" />
+
+    <RadioButton
+        android:id="@+id/eurobotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euro" />
+
+    <RadioButton
+        android:id="@+id/yenbotaoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yen" />
+</RadioGroup>
+    <Button
+        android:id="@+id/btnconverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter" />
+
+    <TextView
+        android:id="@+id/real"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/dolar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/euro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/yen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="TextView" />
+
+</LinearLayout>
